@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-goto-iframe",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "main": "dist/register.js",
   "author": "Cody Price <dev.cprice@gmail.com>",
   "license": "MIT",
@@ -22,7 +22,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@storybook/addons": "^3.4.11"
+    "@storybook/addons": "^4.1.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.0",
