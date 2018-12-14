@@ -1,3 +1,9 @@
+node_modules
+dist
+lib
+yarn-error*
+.DS_Store
+
 # Logs
 logs
 *.log
