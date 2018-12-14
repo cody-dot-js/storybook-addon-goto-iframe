@@ -1,0 +1,51 @@
+{
+  "name": "storybook-addon-goto-iframe",
+  "version": "1.0.0",
+  "main": "dist/register.js",
+  "author": "Cody Price <dev.cprice@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev-cprice/storybook-addon-goto-iframe.git"
+  },
+  "homepage": "https://github.com/dev-cprice/storybook-addon-goto-iframe",
+  "keywords": [
+    "addon",
+    "storybook"
+  ],
+  "files": [
+    "dist",
+    "src",
+    "register.js"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "dependencies": {
+    "@storybook/addons": "^3.4.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-compat": "^2.6.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "react": "^16.6.3"
+  },
+  "peerDependencies": {
+    "react": "^16"
+  },
+  "scripts": {
+    "compile": "babel src --out-dir dist --copy-files",
+    "precompile": "rm -rf dist",
+    "lint": "eslint src",
+    "prepublishOnly": "yarn run lint && yarn run compile"
+  }
+}

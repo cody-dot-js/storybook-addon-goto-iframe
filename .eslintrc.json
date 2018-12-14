@@ -1,0 +1,20 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": [
+    "import",
+    "compat"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/test/*", "**/*.jest.*", "**/*.test.*"]}],
+    "compat/compat": "error",
+    "max-len": ["error", { "code": 120 }]
+  },
+  "settings": {
+    "polyfills": ["promises"]
+  }
+}
