@@ -21,5 +21,5 @@ yarn add -D storybook-addon-goto-iframe@^1.0.0
 Install and then add the following line to your `.storybook/addons.js` file:
 
 ```js
-import 'storybook/addon-goto-iframe/register';
+import 'storybook-addon-goto-iframe/register';
 ```
