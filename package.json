@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-goto-iframe",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "dist/register.js",
   "author": "Cody Price <dev.cprice@gmail.com>",
   "license": "MIT",
