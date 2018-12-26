@@ -1,5 +1,7 @@
 # storybook-addon-goto-iframe
 
+![Latest Version](https://img.shields.io/npm/v/storybook-addon-goto-iframe.svg?style=for-the-badge&logo=npm)
+
 Storybook.js addon to easily navigate directly to the current story's iframe!
 
 ## Installation
